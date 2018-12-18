@@ -1,0 +1,21 @@
+{
+  "name": "emailspammer",
+  "version": "1.0.0",
+  "description": "This is an email spammer app",
+  "main": "form.js",
+  "author": "Tony Xin",
+  "license": "ISC",
+  "scripts": {
+    "start": "node form.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "nodemailer": "^4.6.8"
+  },
+  "engines": {
+    "node": "8.11.2"
+  }
+}
